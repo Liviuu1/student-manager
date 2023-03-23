@@ -1,0 +1,26 @@
+[Stranger]>[UNIVERSITY]
+[UNIVERSITY]-(Sign In)
+[UNIVERSITY]-(News)
+[UNIVERSITY]-(Online Library)
+[UNIVERSITY]-(Forum)
+
+(Forum)<(Teacher)
+(Forum)<(Student)
+(Forum)<(Stranger)
+(Forum)<(Director)
+(Sign In)>(Teacher)
+(Sign In)>(Student)
+(Sign In)>(Director)
+(Student)>(Personal Information)
+(Student)>(Schedule)
+(Student)>(Grades)
+(Student)>(Assignments)
+
+(Teacher)>(Upload)
+(Teacher)>(Statistics)
+
+(Upload)>(Assignments)
+(Upload)>(Schedule)
+(Upload)>(Course)
+(Upload)>(Grades)
+(Grades)>(Statistics)
